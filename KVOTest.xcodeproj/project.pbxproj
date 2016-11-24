@@ -15,6 +15,7 @@
 		93855ED31DBA6DCF006EDC44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93855ED11DBA6DCF006EDC44 /* LaunchScreen.storyboard */; };
 		93855EDE1DBA6DCF006EDC44 /* KVOTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93855EDD1DBA6DCF006EDC44 /* KVOTestTests.m */; };
 		93855EE91DBA6DCF006EDC44 /* KVOTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93855EE81DBA6DCF006EDC44 /* KVOTestUITests.m */; };
+		93855EF91DBA6E43006EDC44 /* Children.m in Sources */ = {isa = PBXBuildFile; fileRef = 93855EF81DBA6E43006EDC44 /* Children.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		93855EE41DBA6DCF006EDC44 /* KVOTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93855EE81DBA6DCF006EDC44 /* KVOTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTestUITests.m; sourceTree = "<group>"; };
 		93855EEA1DBA6DCF006EDC44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93855EF71DBA6E43006EDC44 /* Children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Children.h; path = Model/Children.h; sourceTree = "<group>"; };
+		93855EF81DBA6E43006EDC44 /* Children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Children.m; path = Model/Children.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		93855EC21DBA6DCF006EDC44 /* KVOTest */ = {
 			isa = PBXGroup;
 			children = (
+				93855EF61DBA6DE4006EDC44 /* Model */,
 				93855EC61DBA6DCF006EDC44 /* AppDelegate.h */,
 				93855EC71DBA6DCF006EDC44 /* AppDelegate.m */,
 				93855EC91DBA6DCF006EDC44 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				93855EEA1DBA6DCF006EDC44 /* Info.plist */,
 			);
 			path = KVOTestUITests;
+			sourceTree = "<group>";
+		};
+		93855EF61DBA6DE4006EDC44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93855EF71DBA6E43006EDC44 /* Children.h */,
+				93855EF81DBA6E43006EDC44 /* Children.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				93855ECB1DBA6DCF006EDC44 /* ViewController.m in Sources */,
 				93855EC81DBA6DCF006EDC44 /* AppDelegate.m in Sources */,
+				93855EF91DBA6E43006EDC44 /* Children.m in Sources */,
 				93855EC51DBA6DCF006EDC44 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
